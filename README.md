@@ -3,7 +3,9 @@
 
 >Use node.js 18 or above where possible
 
-setup
+#### setup
+Fork the project
+
 ```bash
 npm i
 ```
