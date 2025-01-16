@@ -71,7 +71,7 @@ const getHL = (i, face) => {
       <b class="task">B. Store</b>
       <ol>
         <li>create a pinia store</li>
-        <li>move current finctions to manage the state of the cubes, faces and the highlighted face to the store</li>
+        <li>move current functions to manage the state of the cubes, faces and the highlighted face to the store</li>
         <li>load values into the store on mount of `App` component</li>
       </ol>
       <b class="task">C. Project</b>
