@@ -57,48 +57,7 @@ const getHL = (i, face) => {
 <template>
 
   <div style="margin: 10px;">
-    Tech test - Tasks:
-
-    <div>
-
-      <b class="task">A. Vue</b>
-      <ol>
-        <li>display all values given in the 'properties' object for each entry, use your judgment on how to display them</li>
-        <li>find the inconsistency between the values and fields in `proto_demo`</li>
-        <li>convert the pose buttons to a dropdown menu using the vue composition api bindings to set the face of the cube (space-out contents of each entry as you see fit)</li>
-        <li>change the background color of each blue container on hover by using the vue action and binding the hover sass class</li>
-      </ol>
-      <b class="task">B. Store</b>
-      <ol>
-        <li>create a pinia store</li>
-        <li>move current functions to manage the state of the cubes, faces and the highlighted face to the store</li>
-        <li>load values into the store on mount of `App` component</li>
-      </ol>
-      <b class="task">C. Project</b>
-      <ol>
-        <li>Push to a new branch `deps {yymmdd}`</li>
-        <li>resolve the 4+ 'High' impact vulnerabilities</li>
-        <li>Commit with message listing solutions</li>
-        <li>PR to main adding me 'SirJamesBrown' as reviewer</li>
-      </ol>
-      <b class="task">D. Execution</b>
-      <ol>
-        <li>build and serve with the provided scripts in package.json</li>
-        <li>using the express server `./server.js`, create a POST end-point which takes a string and call it from the vue app with any given arg</li>
-        <li>Linux | Mac: use node `exec` (specifically) to create a new file called 'word' containing the passed arg and the timestamp (Unix format)</li>
-        <li>Windows: use an fs tool to create a new file called 'word' with the passed arg</li>
-        <li>create a GET endpoint on the server to read the file and return the contents to the vue app</li>
-        <li>display the file contents in the app</li>
-        <li>as in section 'C', commit and pr</li>
-      </ol>
-
-    </div>
-
-    <div>
-      Strike though completed tasks.<br />
-      Not all tasks need to be completed. Please highlight those skipped or passed with a note.
-    </div>
-
+    <!-- ADD YOUR POST INPUT AND GET OUTPUT IN THIS SPACE -->
   </div>
 
   <Poses :faces

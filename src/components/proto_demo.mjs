@@ -32,7 +32,6 @@ export const proto = [
         'Obstetrics',
         'Oral',
       ],
-      finer: 'MOSQUITO',
 
       broader: 'FORCEP',
     },
@@ -157,7 +156,7 @@ export const proto = [
 
         'Plastic Surgery',
       ],
-      finer: 'BULLDOG',
+      finer: null,
 
       broader: 'CLIP',
     },
@@ -209,7 +208,6 @@ export const proto = [
     time: 1687363210,
     properties: {
       sub: 'OPHTHALMIC',
-      length: 4.5,
       characteristic: 'CURVED',
       speciality: [
         'Cardiovascular',
